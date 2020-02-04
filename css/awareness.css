@@ -1,0 +1,218 @@
+/* Awareness */
+#awareness {padding-bottom:100px;}
+#awareness .bg_panel {
+background: #eb956a; /* Old browsers */
+background: -moz-linear-gradient(top,  #eb956a 0%, #ff595c 69%, #eb1426 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #eb956a 0%,#ff595c 69%,#eb1426 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #eb956a 0%,#ff595c 69%,#eb1426 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb956a', endColorstr='#eb1426',GradientType=0 ); /* IE6-9 */
+}
+#walks {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+#education {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+#campaigns {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+#education_banner {margin: 170px 0 0 0;}
+
+/* Awareness Walks */
+#awareness_education .section_columns {padding:50px 0;}
+#awareness_education .accordion_content a {font-family:AvenirNextLTPro-Bold, sans-serif; color: #000; border-bottom: 2px solid #ffd007; text-decoration: none;}
+#awareness_education .accordion_content a:hover {border-bottom: 2px solid #000;}
+
+
+/* Awareness Walks */
+#awareness_walks .section_columns {padding: 58px 0 53px 0;}
+#awareness_walks .section_callout.section_mobile {margin-bottom:40px;}
+
+#awareness_walks .section_right .right_intro-top:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#awareness_walks .right_intro-left {}
+#awareness_walks .right_intro-right {display:block; width:210px; margin:20px auto;}
+#awareness_walks .right_intro-right img {width:100%; height:auto;margin: 10px 0 10px 0;}
+#awareness_walks .section_right .right_intro-top p:first-of-type {padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; color:#000; font-size:24px; line-height:32px; letter-spacing: -.3px;}
+
+
+/* Awareness Banner */
+#awareness_banner .banner_burst1 {transform: rotate(-5deg);z-index: 1;}
+#awareness_banner .banner_burst1 span {display:block; padding-top:30px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#EB1426; font-size:9px; line-height:9px;}
+#awareness_banner .banner_burst1 span strong {display:block; font-size:26px; line-height:20px; font-weight:400;}
+#awareness_banner .banner_burst2 {transform: rotate(11deg);}
+#awareness_banner .banner_burst2 span {display:block; padding-top:28px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#EB1426; font-size:9px; line-height:9px;}
+#awareness_banner .banner_burst2 span strong {display:block; font-size:14px; line-height:14px; font-weight:400;}
+
+/* Education Banner */
+#education_banner .banner_burst1 {transform: rotate(11deg);border-radius: 50%;z-index: 1;}
+#education_banner .banner_burst1 span {display:block; padding-top:16px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#EB1426; font-size:9px; line-height:9px;}
+#education_banner .banner_burst1 span strong {display:block; font-size:25px; line-height:25px; font-weight:400;}
+#education_banner .banner_burst2 {right:20px;transform: rotate(-11deg);border-radius: 50%;}
+#education_banner .banner_burst2 span {display:block; padding-top:26px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#EB1426; font-size:9px; line-height:9px;}
+#education_banner .banner_burst2 span strong {display:block; font-size:18px; line-height:14px; font-weight:400;}
+
+/* Awareness Walks */
+#awareness_campaigns {padding: 0 0 33px 0;}
+#awareness_campaigns .section_columns {padding: 23px 0 0 0;}
+
+.section_scroll-left2 strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight: 400;}
+.section_scroll  a.textlink {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight: 400; color: #000; border-bottom: 3px solid #ffce08; text-decoration: none;}
+.section_scroll  a.textlink:hover { border-bottom: 3px solid #000; }
+.section_scroll strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight: 400; }
+
+/* Campaign Banner */
+#campaign_banner .banner_burst1 {bottom:auto; top:-25px;width: 90px;height: 90px;border-radius: 50%;}
+#campaign_banner .banner_burst1 span {display:block; padding-top:16px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#EB1426; font-size:9px; line-height:9px; }
+#campaign_banner .banner_burst1 span strong {display:block; font-size:25px; line-height:25px; font-weight:400;}
+
+#awareness a.awareness_video-btn {border-bottom: none; display:inline-block; padding:26px 22px; background:#ffce08; text-decoration:none; position:relative;}
+#awareness a.awareness_video-btn:hover {text-decoration:none; border-bottom: none;}
+#awareness a.awareness_video-btn img {display:block;}
+#awareness a.awareness_video-btn span {display:block; margin-top:12px; color:#262626; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:20px; line-height:24px;}
+#awareness a.awareness_video-btn:after {
+    content: "\2197";
+    display: block;
+    position: absolute;
+    right:22px;
+    bottom:26px;
+    color: #fff;
+    font-family: PaulGroteskSoft-Bold, sans-serif;
+    font-weight: 400;
+    font-size:20px;
+}
+
+/* Volunteer Modal */
+.volunteerModal {padding-right:0 !important;}
+.volunteerModal .modal-dialog {
+    background:#FFCE08;
+    padding: 32px 40px 56px;
+    text-align: left;
+	width:100%;
+	color:#000;
+	margin:0 auto;
+	min-height:100%;
+}
+
+.volunteerModal .modal-content {
+	width:95%;
+	max-width:1260px;
+	margin:0 auto;
+}
+
+.volunteerModal h1 {margin:0; padding: 18px 0 8px 0; color: #fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:18px; width: 90%;}
+.volunteerModal h2 { color: #262626; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; font-size:28px;}
+.volunteerModal h3 { color: #262626; font-family:paulgrotesksoft-regular, sans-serif; font-weight:400; font-size:32px;}
+.volunteerModal p {  font-family:AvenirNextLTPro-Regular, sans-serif; font-size:20px; line-height:28px; color:#262626;padding: 0 0 35px 0;max-width: 736px;}
+.volunteerModal strong { font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700;font-size:26px; letter-spacing: .2px;}
+
+.volunteerModal .volunteer_image {width: 90%; max-width: 304px;margin: 22px 0;}
+.volunteerModal .volunteer_image img {width: 100%;}
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+  
+#awareness_banner .banner_burst1 {width: 100px; height: 100px; border-radius: 50%; bottom:-5px; right:80px;}
+#awareness_banner .banner_burst2 {width: 100px; height: 100px; border-radius: 50%; bottom:-70px; right:24px; z-index: 2}
+#awareness_banner .banner_burst1 span {padding-top:34px;font-size:15px; line-height:15px;}
+#awareness_banner .banner_burst1 span strong {display:block; font-size:31px; line-height:23px; font-weight:400;}
+#awareness_banner .banner_burst2 span {padding-top:32px;font-size:12px; line-height:15px;}
+#awareness_banner .banner_burst2 span strong {display:block; font-size:28px; line-height:24px; font-weight:400;}
+
+#education_banner .banner_burst1 {width: 100px; height: 100px; border-radius: 50%; bottom:-5px; right:80px; z-index: 3}
+#education_banner .banner_burst2 {width: 100px; height: 100px; border-radius: 50%; bottom:-70px; right:24px; z-index: 2}
+#education_banner .banner_burst1 span {padding-top:21px;font-size:15px; line-height:15px;}
+#education_banner .banner_burst1 span strong {display:block; font-size:31px; line-height:23px; font-weight:400;}
+#education_banner .banner_burst2 span {padding-top:32px;font-size:12px; line-height:13px;}
+#education_banner .banner_burst2 span strong {display:block; font-size:28px; line-height:21px; font-weight:400;}
+  
+  
+
+  
+.volunteerModal h1 {font-size:22px;}
+.volunteerModal h2 {font-size:30px;}
+.volunteerModal h3 {font-size:30px;}
+
+.volunteerModal .volunteer_image {width: 90%; max-width: 317px;margin: 32px 0;}
+}
+
+@media only screen and (min-width: 600px) {
+.volunteerModal h1 {font-size:30px;}
+.volunteerModal h2 {font-size:40px;line-height: 45px;}
+.volunteerModal h3 {font-size:40px;}
+}
+
+@media only screen and (min-width: 720px) {
+.volunteerModal h1 {padding: 0;}
+}
+
+@media only screen and (min-width: 960px) {
+
+#awareness_banner .banner_burst1 {width: 155px; height: 155px; border-radius: 50%;/*! z-index: 1; */bottom: 19px;right: 137px;}
+#awareness_banner .banner_burst1 span {padding-top:52px; font-size:20px; line-height:20px; }
+#awareness_banner .banner_burst1 span strong {font-size:56px; line-height:41px; letter-spacing: -1px;}
+#awareness_banner .banner_burst2 {width: 155px; height: 155px; border-radius: 50%}
+#awareness_banner .banner_burst2 span {padding-top:47px; color:#EB1426; font-size:20px; line-height:22px;letter-spacing: -.5px;}
+#awareness_banner .banner_burst2 span strong {font-size:43px; line-height:37px;}
+
+#education_banner .banner_burst1 {width: 181px; height: 181px; border-radius: 50%; z-index: 1; bottom: 19px;right: 137px;}
+#education_banner .banner_burst1 span {padding-top:52px; font-size:20px; line-height:20px; }
+#education_banner .banner_burst1 span strong {font-size:56px; line-height:41px; letter-spacing: -1px;z-index:2;}
+#education_banner .banner_burst2 {width: 181px; height: 181px; border-radius: 50%}
+#education_banner .banner_burst2 span {padding-top:47px; color:#EB1426; font-size:20px; line-height:22px;letter-spacing: -.5px;}
+#education_banner .banner_burst2 span strong {font-size:43px; line-height:37px;}
+
+#campaign_banner .banner_burst1 {bottom:auto; right:186px; top:-43px; width:181px; height:181px;
+-moz-border-radius:90px;
+-webkit-border-radius:90px;
+border-radius:90px;
+}
+#campaign_banner .banner_burst1 span {padding-top:38px; font-size:18px; line-height:17px;}
+#campaign_banner .banner_burst1 span strong {font-size:68px; line-height:51px;letter-spacing: -1px;}
+
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+/* Awareness Banner */
+#awareness_banner .banner_burst1 {bottom: 79px;right: 150px;}
+#awareness_banner .banner_burst2 {bottom: -21px;right: 50px;}
+
+
+#awareness_walks .right_intro-left {float:left; max-width:510px; width:calc(100% - 220px);}
+#awareness_walks .right_intro-right {float:right; margin:0;}
+
+/* Education Banner */
+#education_banner .banner_burst1 {bottom:77px; right:134px;}
+#education_banner .banner_burst1 span {padding-top:46px; font-size:20px; line-height:20px;}
+#education_banner .banner_burst1 span strong {font-size:57px; line-height:46px;letter-spacing: -2px;}
+#education_banner .banner_burst2 {bottom:-50px; right:40px;}
+#education_banner .banner_burst2 span {padding-top:58px; color:#EB1426; font-size:20px; line-height:20px;}
+#education_banner .banner_burst2 span strong {font-size:48px; line-height:36px;}
+
+/* Campaign Banner */
+  
+#campaign_banner {margin: 70px 0 0 0;}
+  
+
+.volunteerModal .volunteer_profile {float: left; vertical-align: top;width: initial;padding: 56px 0 0 56px;}
+.volunteerModal .volunteer_image {float: left; vertical-align: top;margin: 32px 32px 32px 0;}
+.volunteerModal .volunteer_info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section_callout.section_desktop {margin: 32px 0;}
+
+#section_scroll-awkward .section_scroll-left {width:420px;}
+#section_scroll-awkward .section_scroll-right {width: calc(100% - 430px);}
+
+
+}
+
+@media only screen and (min-width: 1320px) {
+
+}
+
+@media only screen and (min-width: 1900px) {  
+ 
+}

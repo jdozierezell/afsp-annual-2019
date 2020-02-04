@@ -1,0 +1,147 @@
+.scroll-container {
+    display: block;
+    /*padding-bottom: 20px;*/
+    margin:0;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+.scroll-container .scroll-content {width:640px;}
+.scroll-container #scroll-communitywalks {width:3668px;}
+.scroll-container #scroll-campuswalks {width:4805px;}
+.scroll-container #scroll-overnight {width:4967px;}
+.scroll-container #scroll-month {width:3000px;}
+.scroll-container #scroll-awkward {width:2434px;}
+
+.scroll-container #scroll-capitoldays {width:2610px;}
+.scroll-container #scroll-advocacy {width:4018px;}
+.scroll-container #scroll-field {width:3135px;}
+
+
+.scroll-container #scroll-awards {width:4970px;}
+
+
+.scroll-container .clearfix {
+    display: block;
+    clear: both;
+    height:1px
+}
+
+.scroll_label {
+    position: relative;
+    font-family:AvenirNextLTPro-Bold;
+    font-size:14px;
+    color:#EB1426;
+}
+#prevention .scroll_label {
+    color:#2AD891;
+}
+
+#AFSP2019 .scroll_label {
+    color:#E12A91;
+}
+
+.scroll_label-rightarrow {
+    float: left
+}
+.scroll_label-leftarrow {
+    float: right;
+    margin-right: 25px
+}
+
+.scroll_label-desktop {display:none;}
+.scroll_label-mobile {display:block;}
+
+.scroll-box {
+    float: left;
+    width: 620px;
+    margin-right: 20px;
+	position:relative;
+}
+
+.scroll_arc {width:180px; position:absolute; z-index:2;}
+.scroll_arc img {width:100%; height:auto;}
+
+.scroll_burst {width:170px; height:170px; position:absolute; z-index:2; 
+-moz-border-radius:85px;
+-webkit-border-radius:85px;
+border-radius:85px; 
+-khtml-border-radius:85px;
+}
+.scroll_burst span {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#fff; display:block;}
+
+#scroll-communitywalks .scroll-box {width:470px;}
+#scroll-campuswalks .scroll-box {width:585px;}
+#scroll-overnight .scroll-box {width:470px;}
+#scroll-month .scroll-box {width:488px;}
+#scroll-month .scroll-box p {margin:0 0 15px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:18px; line-height:26px;}
+
+#scroll-awkward .scroll-box {width:600px;}
+#scroll-awkward .scroll-box p {margin:0 0 15px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:18px; line-height:26px;}
+
+#scroll-capitoldays .scroll-box {width:585px;}
+#scroll-advocacy .scroll-box {width:470px;}
+#scroll-field .scroll-box {width:420px;}
+
+
+#scroll-awards .scroll-box {width:470px;}
+
+.scroll-box.last {
+    margin-right: 0
+}
+
+.scroll-box figure {
+    margin: 0
+}
+
+.scroll-box figure p {
+    max-width:320px;
+}
+
+.scroll-box figure img {
+    display: block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;	
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+
+.scroll-box figure p {
+    max-width:420px;
+}
+
+}
+
+@media only screen and (min-width: 720px) {
+
+.scroll-box figure p {
+    max-width:100%;
+}
+
+
+}
+
+@media only screen and (min-width: 960px) {
+
+
+}
+
+@media only screen and (min-width: 1025px) {
+.scroll_label-desktop {display:block;}
+.scroll_label-mobile {display:none;}
+}
+
+@media only screen and (min-width: 1320px) {
+
+}
+
+@media only screen and (min-width: 1900px) {  
+ 
+}
+
+
+
+

@@ -1,0 +1,182 @@
+/* Prevention */
+#support {padding-bottom:100px;}
+#support .bg_panel {
+background: #a5dae3; /* Old browsers */
+background: -moz-linear-gradient(top,  #a5dae3 0%, #46a8ff 36%, #4782ff 70%, #396dff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a5dae3 0%,#46a8ff 36%,#4782ff 70%,#396dff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a5dae3 0%,#46a8ff 36%,#4782ff 70%,#396dff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5dae3', endColorstr='#396dff',GradientType=0 ); /* IE6-9 */
+}
+
+#support .interior_subnav {max-width:160px;}
+
+
+#screening {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+#healing {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+
+.section_callout.section_desktop {margin: 32px 0;}
+
+#support #support_logo {margin: 40px 0 12px 0;}
+#support #support_logo img {width: 277px;}
+
+#support #conversations_logo {margin: 47px 0 11px 0;}
+#support #conversations_logo img {width:263px;}
+
+#support_screening .section_columns {padding: 46px 0 84px 0;}
+#support_screening .section_right .right_intro p {margin: 0 0 12px 0;}
+#support_screening .section_right .right_intro p:first-of-type {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400;font-size: 24px;line-height: 32px;}
+#support_articles p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-family: AvenirNextLTPro-Regular, sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+}
+#support_screening .section_right .right_intro {padding: 0 0 38px 0;}
+
+#support_articles h3 {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#fff; font-size:24px; line-height:25px; margin:30px 0 10px 0; padding:0;}
+
+
+/* Screening Banner */
+#screening_banner .banner_burst1 {width: 90px; height: 90px; border-radius: 50%; transform: rotate(-6deg)}
+#screening_banner .banner_burst1 span {display:block; padding-top:17px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#396DFF; font-size:9px; line-height:11px;}
+#screening_banner .banner_burst1 span strong {display:block; font-size:31px; line-height:26px; font-weight:400; letter-spacing: -1px;}
+
+#screening_banner .banner_burst2 {width: 90px; height: 90px; border-radius: 50%; transform: rotate(7deg); right: 5px;}
+#screening_banner .banner_burst2 span {display:block; padding-top:22px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#396DFF; font-size:9px; line-height:9px;}
+#screening_banner .banner_burst2 span strong {display:block; font-size:31px; line-height:31px; font-weight:400; letter-spacing: -1px;}
+
+#screening_news {}
+#screening_news h2 {margin:0 0 20px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:24px; color:#fff;}
+#screening_news a {display:block; margin: 0 0 10px 0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:700; color:#fff; font-size:18px; line-height:23px; text-decoration:none; /*! text-decoration-color:#FFCE08; */ position:relative; letter-spacing: -.6px}
+#screening_news span {border-bottom: 3px solid #ffce08;}
+#screening_news a:hover {text-decoration: underline; text-decoration-color: #fff;}
+/* Healing Banner */
+#healing_banner .banner_burst1 {}
+#healing_banner .banner_burst1 span {display:block; padding-top:17px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#396DFF; font-size:9px; line-height:9px;}
+#healing_banner .banner_burst1 span strong {display:block; font-size:31px; line-height:31px; font-weight:400;}
+
+#healing_banner .banner_burst2 {right: 16px;}
+#healing_banner .banner_burst2 span {display:block; padding-top:22px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#396DFF; font-size:9px; line-height:9px;}
+#healing_banner .banner_burst2 span strong {display:block; font-size:31px; line-height:31px; font-weight:400;}
+
+#support_healing .section_columns {padding: 27px 0 117px 0;}
+#support_healing .section_right .right_intro p:nth-child(1) {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400;font-size: 24px;line-height: 32px;letter-spacing: -.2px;}
+
+#support_healing .section_right .right_intro p:last-of-type {margin: 0px 0 60px 0;}
+
+#support a.accordion_toggle {color:#396DFF;}
+
+#support #healingconversations_logo {margin: 0 0 27px 0;}
+#support #healingconversations_logo img {width: 264px;}
+
+#support #healingconversations_logo  a.scroll_left-button:after {content:"\2197"; display:block; position:absolute; right:17px; top:50%; transform: translateY(-50%); color:#fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:14px;}
+
+
+/* Volunteer Modal */
+.volunteerModal {padding-right:0 !important;}
+.volunteerModal .modal-dialog {
+    background:#FFCE08;
+    padding: 32px 40px 56px;
+    text-align: left;
+	width:100%;
+	color:#000;
+	margin:0 auto;
+	min-height:100%;
+}
+.volunteerModal .modal-content {
+	width:95%;
+	max-width:1260px;
+	margin:0 auto;
+}
+
+.volunteerModal h1 {margin:0; padding: 18px 0 8px 0; color: #fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:18px; width: 90%;}
+.volunteerModal h2 { color: #262626; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; font-size:28px;}
+.volunteerModal h3 { color: #262626; font-family:paulgrotesksoft-regular, sans-serif; font-weight:400; font-size:32px;}
+.volunteerModal p {  font-family:AvenirNextLTPro-Regular, sans-serif; font-size:20px; line-height:28px; color:#262626;padding: 0 0 35px 0;max-width: 736px;}
+.volunteerModal strong { font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700;font-size:26px; letter-spacing: .2px;}
+
+.volunteerModal .volunteer_image {width: 90%; max-width: 304px;margin: 22px 0;}
+.volunteerModal .volunteer_image img {width: 100%;}
+
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+.volunteerModal h1 {font-size:22px;}
+.volunteerModal h2 {font-size:30px;}
+.volunteerModal h3 {font-size:30px;}
+
+.volunteerModal .volunteer_image {width: 90%; max-width: 317px;margin: 32px 0;}
+}
+
+@media only screen and (min-width: 600px) {
+.volunteerModal h1 {font-size:30px;}
+.volunteerModal h2 {font-size:40px;line-height: 45px;}
+.volunteerModal h3 {font-size:40px;}
+}
+
+@media only screen and (min-width: 720px) {
+.volunteerModal h1 {padding: 0;}
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+#support .interior_intro .interior_content {padding:243px 0 94px 0;}
+
+/* Screening Banner */
+#screening_banner .banner_burst1 {top:263px; right:140px; width:195px; height:195px; transform: rotate(-10deg);
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:50%;
+}
+#screening_banner .banner_burst1 span {padding-top:30px; font-size:18px; line-height:20px;}
+#screening_banner .banner_burst1 span strong {font-size:69px; line-height:69px;}
+
+#screening_banner .banner_burst2 {top:405px; right:52px; width:195px; height:195px; transform: rotate(10deg);
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:50%;
+}
+#screening_banner .banner_burst2 span {padding-top:50px; font-size:18px; line-height:20px;}
+#screening_banner .banner_burst2 span strong {font-size:57px; line-height:57px;}
+
+/* Healing Banner */
+#healing_banner .banner_burst1 {top:250px; right:60px; width:195px; height:195px; transform: rotate(10deg);
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:100px;
+}
+#healing_banner .banner_burst1 span {padding-top:69px; font-size:18px; line-height:18px;}
+#healing_banner .banner_burst1 span strong {font-size:69px; line-height:48px;}
+
+#healing_banner .banner_burst2 {top:396px; right:132px; width:195px; height:195px; transform: rotate(10deg);
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:100px;
+}
+#healing_banner .banner_burst2 span {padding-top:69px; font-size:18px; line-height:18px;}
+#healing_banner .banner_burst2 span strong {font-size:69px; line-height:48px;}
+
+.volunteerModal .volunteer_profile {float: left; vertical-align: top;width: initial;padding: 56px 0 0 56px;}
+.volunteerModal .volunteer_image {float: left; vertical-align: top;margin: 32px 32px 32px 0;}
+.volunteerModal .volunteer_info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
+
+@media only screen and (min-width: 1320px) {
+
+}
+
+@media only screen and (min-width: 1900px) {  
+ 
+}

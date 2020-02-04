@@ -1,0 +1,331 @@
+/* 2019 */
+#AFSP2019 {padding-bottom:100px;}
+
+a.content_link {color:inherit; border-bottom: 3px solid #FFCE08; text-decoration: none;}
+a.content_link:hover {color:inherit; border-bottom: 3px solid #000;}
+
+
+#AFSP2019 .bg_panel {
+background: #ff958c; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff958c 0%, #f7808e 25%, #e84a97 79%, #e12a91 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff958c 0%,#f7808e 25%,#e84a97 79%,#e12a91 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff958c 0%,#f7808e 25%,#e84a97 79%,#e12a91 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff958c', endColorstr='#e12a91',GradientType=0 ); /* IE6-9 */
+}
+
+#AFSP2019 .interior_subnav {max-width:160px;}
+#plan {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+#grants {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+#gala {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
+#financials {display:block; height:1px; width:1px; position:absolute; right:0; top:-20px;} 
+
+
+a#innovation_grants-btn {display:inline-block; color:#E12A91; height:66px; line-height:69px; background:#fff; text-decoration:none; padding:0 45px 0 20px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:18px; position:relative;}
+a#innovation_grants-btn:hover {text-decoration:none;}
+
+a#innovation_grants-btn:after {
+    content: "\002B";
+    color: #FFD007;
+    display: block;
+    font-family: PaulGroteskSoft-Bold, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    height: 30px;
+    position: absolute;
+    right:8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    text-align: center;
+}
+
+
+
+#AFSP2019_intro .interior_content {/*padding: 248px 0 66px 0;*/}
+#AFSP2019_plan .section_columns {padding: 38px 0;}
+#AFSP2019_plan .section_right .right_intro p:first-of-type {margin: 0px 0 20px 0;}
+#AFSP2019_plan .section_right .right_intro p:nth-of-type(2) {margin: 0 0 0 0;}
+
+#AFSP2019_plan ul {font-size: 21px; line-height: 27px; margin: 0 0 24px 0; padding: 0 0 0 19px;color: #000; font-family:AvenirNextLTPro-Regular, sans-serif;letter-spacing: -.2px;}
+#AFSP2019_plan li {margin: 0 0 3px 0;} 
+#AFSP2019_plan .section_columns {padding: 24px 0 83px 0;}
+#AFSP2019_plan .section_right .right_intro p:first-of-type {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size: 24px; line-height: 31px; letter-spacing: -.5px;}
+
+#AFSP2019_gala .section_columns {padding: 24px 0 23px 0;}
+#AFSP2019_gala .section_right .right_intro p:first-of-type {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size: 24px; line-height: 31px; letter-spacing: -.5px; margin: 0 0 25px 0;}
+#AFSP2019_gala .section_right .right_intro p {margin:0 0 10px 0;}
+
+#AFSP2019_grants .section_columns {padding: 24px 0 84px;}
+#AFSP2019_grants .section_right .right_intro p:first-of-type {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size: 24px; line-height: 31px;}
+
+#AFSP2019_chapter .section_columns {padding: 26px 0 84px;}
+#AFSP2019_chapter .section_right .right_intro p:first-of-type {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size: 24px; line-height: 31px;margin: 0 0 17px 0;}
+
+
+#AFSP2019 figure h3 {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400;}
+
+#AFSP2019 figure p {font-family:AvenirNextLTPro-Regular, sans-serif; font-size:14px; padding: 10px 0; line-height:18px;color: #4d4d4d;}
+#AFSP2019 figure p strong {font-family:AvenirNextLTPro-Bold, sans-serif; }
+
+.section_scroll-left3 {padding:30px;}
+.section_scroll-left3 h2 {margin:0 0 16px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#E12A91; font-size:24px; line-height:30px;}
+
+.section_scroll-right3 {position:relative; padding:0 0 30px 0;}
+
+
+
+
+/* Grants Modal */
+.grantsModal {padding-right:0!important;}
+.grantsModal .modal-dialog {
+    background:#fff;
+    padding: 20px;
+    text-align: left;
+	width:100%;
+	color:#000;
+	margin:0 auto;
+	min-height:100%;
+}
+.grantsModal .modal-content {
+	width:90%;
+	max-width:1260px;
+	margin:0 auto;
+}
+
+.grantsModal .modal-body {}
+.grantsModal .grantsIntro {max-width:790px; margin-bottom:50px;}
+.grantsModal .grantsIntro h1 {margin:0 0 20px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; color:#E12A91; font-size:40px; line-height:44px;}
+.grantsModal .grantsIntro p {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:16px; line-height:20px; hyphens:manual;}
+.grantsModal .grantsIntro ul {margin:0; padding:0; list-style: none;}
+.grantsModal .grantsIntro ul li {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:16px; line-height:20px;}
+.grantsModal .grantsIntro ul li strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+
+
+.grantsModal section {border-top:1px solid #E12A91; padding:30px 0 0 0; margin:0 0 30px 0;}
+.grantsModal section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grantsModal section .grants_left {}
+
+.grantsModal section .grants_left p {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:18px; line-height:26px;}
+
+.grantsModal section .grants_left strong.grants_title {margin:0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; color:#E12A91; font-size:24px; line-height:26px; display:block;}
+
+.grantsModal section .grants_right {}
+.grantsModal section .grants_right .grants_bio {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:16px; line-height:24px;}
+.grantsModal section .grants_right .grants_bio img {display:block; margin-bottom:15px; width:160px; height:auto;} 
+.grantsModal section .grants_right .grants_bio img.grants_bio-inline {display:inline-block; margin-right:10px;} 
+.grantsModal section .grants_right .grants_bio strong {display:block; font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:700; } 
+.grantsModal section .grants_right .grants_bio span {display:block;} 
+
+
+#AFSP2019 #chapter_banner {margin: 89px 0 0 0;}
+
+
+#AFSP2019_financials {}
+#AFSP2019_financials .section_columns {padding: 28px 0 35px 0;}
+#AFSP2019_financials .section_right .right_intro p:first-of-type {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size: 24px; line-height: 31px;margin: 0 0 30px 0;}
+
+a#letter-btn {display:inline-block; color:#E12A91; height:66px; line-height:70px; background:#fff; text-decoration:none; padding:0 30px 0 20px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:18px; position:relative;width: 188px;}
+a#letter-btn:hover {text-decoration:none;}
+
+a#letter-btn:after {
+    content: "\002B";
+    color: #FFD007;
+    display: block;
+    font-family: PaulGroteskSoft-Bold, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    height: 30px;
+    position: absolute;
+    right:16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    text-align: center;
+}
+
+#financials_top {border-top:5px #fff solid;}
+
+#AFSP2019_financials h2 {
+    margin: 0;
+    padding:0 0 30px 0;
+    font-family: PaulGroteskSoft-Bold, sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
+	
+
+}
+
+#financial_tabs-nav {position:relative; width:100%; max-width:400px; margin:0 auto; z-index:999999;}
+
+#financial_toggle {display:block; font-family: PaulGroteskSoft-Bold, sans-serif; font-size:24px; text-decoration:none; color:#FFF; height:60px; line-height:60px; background:#f8078d; padding:0 30px;
+-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+
+}
+
+#financial_tabs-nav.financial_tabs-open #financial_toggle {
+-moz-border-radius: 30px 30px 0 0;
+    -webkit-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+
+}
+
+
+
+#financial_toggle:after {content:"\25BC"; display:block; font-family:PaulGroteskSoft-Bold, sans-serif; font-size:24px; height:60px; line-height:60px; text-decoration:none; color:#FFF; position: absolute; top:0; right:30px;}
+
+#financial_tabs {margin:0; padding:0 30px 30px 30px; list-style:none; display:none; position: absolute; left:0; top:60px; background:#f8078d; width:100%;}
+#financial_tabs-nav.financial_tabs-open #financial_tabs {display:block;}
+#financial_tabs li {margin:0; padding:0; display:block;}
+#financial_tabs li a.tabs_trigger {display:block; font-family: PaulGroteskSoft-Bold, sans-serif; font-size:24px; line-height:30px; text-decoration:none; color:#FFCE08; padding-right:30px;}
+#financial_tabs li:last-of-type a.tabs_trigger {padding-right:0;}
+#financial_tabs li a.tabs_trigger-highlight {color:#fff;}
+
+
+
+
+/* Letter Modal */
+#letterModal {padding-right:0 !important;}
+#letterModal .modal-dialog {
+    background:#FFCE08;
+    padding: 20px;
+    text-align: left;
+	width:100%;
+	color:#000;
+	margin:0 auto;
+	min-height:100%;
+}
+
+#letterModal .modal-content {
+	width:90%;
+	max-width:1260px;
+	margin:0 auto;
+}
+
+#letterModal .modal-body {}
+
+#letterModal .letter_body {}
+#letterModal .letter_body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#letterModal .letter_left {max-width:300px; margin:0 auto;}
+#letterModal .letter_left img {width:80%; height:auto;}
+#letterModal .letter_right h2 {margin:0 0 20px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; color:#000; font-size:24px; line-height:30px;max-width: 280px;}
+#letterModal .letter_right h2 br {display: none;}
+
+#letterModal .letter_right p {margin:0 0 15px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:20px; line-height:28px; }
+#letterModal .letter_right strong {font-family:AvenirNextLTPro-Bold, sans-serif;}
+#letterModal .letter_right p a {color: #000; text-decoration: underline;}
+
+#letterModal .letter_right ul {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:20px; line-height:28px;padding: 0 0 0 20px;}
+#letterModal .letter_right ul li {}
+
+/*#letterModal .letter_signatures-holder {max-width:620px;}
+#letterModal .letter_signatures {max-width:300px; font-family:AvenirNextLTPro-Regular, sans-serif; color:#000; font-size:18px; line-height:26px; display:inline-block;}
+#letterModal .letter_signatures img {width:100%; height:auto;}
+#letterModal .letter_signatures strong {display:block; font-family:AvenirNextLTPro-Bold, sans-serif;}*/
+
+#letterModal .letter_left .letter_pods {display: none;}
+#letterModal .letter_left .letter_pods {width: 274px; font-family:AvenirNextLTPro-Regular, sans-serif;  color:#000;margin: 0 0 110px 0;}
+#letterModal .letter_left .letter_pods p {font-size: 18px; line-height: 25px}
+#letterModal .letter_left .letter_pods strong {font-family:AvenirNextLTPro-Bold, sans-serif; display: block}
+#letterModal .letter_left .letter_pods:last-of-type {margin: 0;}
+
+#letterModal .letter_right #letter_bottom  {margin: 0 auto; width: 274px; text-align: center;}
+#letterModal .letter_right #letter_bottom img {width:80%; height:auto;}
+#letterModal .letter_right #letter_bottom .letter_pods {/*! width: 274px; */ font-family:AvenirNextLTPro-Regular, sans-serif;  color:#000;margin: 50px 0 50px 0;}
+#letterModal .letter_right #letter_bottom .letter_pods p {font-size: 18px; line-height: 25px}
+#letterModal .letter_right #letter_bottom .letter_pods strong {font-family:AvenirNextLTPro-Bold, sans-serif; display: block}
+
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+#letterModal .letter_right h2 br {display: block;}
+  #letterModal .letter_right h2 {max-width: none;} 
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 720px) {
+#letterModal .letter_left {float:left; max-width:200px; margin-right:20px;margin-left: 20px;}
+#letterModal .letter_right {float:left; max-width:600px;}
+#letterModal .letter_right #letter_bottom  {width: initial;}
+#letterModal .letter_right #letter_bottom .letter_pods {display: inline-block;width: 274px;}
+
+}
+
+@media only screen and (min-width: 960px) {
+.slide-mobile {display:none;}
+.grantsModal .modal-body {padding:100px 80px;}
+
+#AFSP2019 figure p {font-size: 18px; line-height: 25px;}
+
+#letterModal .letter_left {max-width:402px; }
+#letterModal .letter_right {max-width:500px;}
+#letterModal .modal-dialog {padding: 20px;}
+#letterModal .letter_right h2 {font-size: 27px;}
+#letterModal .letter_left .letter_pods {display: block; }
+#letterModal .letter_right #letter_bottom  {display: none;}
+}
+
+@media only screen and (min-width: 1025px) {
+
+#AFSP2019_intro .interior_content {padding: 248px 0 89px 0;}
+
+.section_scroll-left3 {}
+.section_scroll-left3 h2 {margin:0 0 16px 0; font-size:30px; line-height:34px;}
+.section_scroll-right3 {padding:0 0 30px 30px;}
+    
+#AFSP2019 #chapter_banner {margin: 169px 0 0 0;}
+#AFSP2019_chapter .section_columns {padding: 26px 0 148px;}
+
+#AFSP2019_financials h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#financial_tabs-nav {max-width:100%; margin:0;}
+
+#financial_toggle {display:none;}
+#financial_tabs {display:block; padding:0; position:relative; left:0; top:0; background:none; max-width:100%; margin:0;}
+#financial_tabs li {display:inline-block;}
+
+.grantsModal section .grants_left {width:66%; float:left;}
+.grantsModal section .grants_right {width:33%; float:right;}
+.grantsModal section .grants_right .grants_bio {padding-left:30px;}
+
+}
+
+@media only screen and (min-width: 1280px) {
+#letterModal .modal-body {padding:100px 50px;}
+#letterModal .letter_right {max-width:670px;margin: 0 0 0 45px;}
+#letterModal .letter_right h2 {font-size: 30px;}
+#letterModal .letter_left img {width:100%; height:auto;}
+  #letterModal .letter_left {margin-left: 0px;}
+
+}
+
+@media only screen and (min-width: 1380px) {
+
+  #letterModal .modal-body {padding:100px 80px;}
+  #letterModal .letter_right {max-width:670px;margin: 0px 0 0 75px;}
+}
+
+
+@media only screen and (min-width: 1900px) {  
+ 
+}
