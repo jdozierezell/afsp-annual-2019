@@ -22,7 +22,7 @@
 .interior_subnav {margin:10px 0 50px;}
 .interior_subnav a {display:inline-block; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#fff; font-size:13px; text-decoration:none; margin-right: 20px;}
 
-.intro_text {}
+
 .intro_text p {margin:0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#000; font-size:22px; line-height:26px;}
 
 /* Page Banner */
@@ -47,7 +47,7 @@ border-radius:40px;
   clear: both;
 }
 
-.section_left {}
+
 .section_left h2 {margin:0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#000; font-size:20px; line-height:26px;}
 .section_left h3 {margin:0; padding:0; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; color:#000; font-size:20px; line-height:26px;}
 
@@ -61,10 +61,10 @@ border-radius:40px;
 
 
 
-.section_callout {max-width:265px; width:100%;}
-.section_callout.section_mobile {margin:0 auto;}
-.section_callout img {width:100%; height:auto;}
-.section_callout.section_mobile img {margin-left:-20px;}
+.section_callOut {max-width:265px; width:100%;}
+.section_callOut.section_mobile {margin:0 auto;}
+.section_callOut img {width:100%; height:auto;}
+.section_callOut.section_mobile img {margin-left:-20px;}
 
 /* Scroll Section */
 .section_scroll {background:#fff; margin-bottom:30px;}
@@ -197,7 +197,7 @@ border-radius:80px;
 .section_right {width:70%; max-width:760px; float:right; padding:0 24px 0 0;}
 .section_right .right_intro p {font-size:21px; line-height:28px;}
 
-.section_callout.section_desktop {}
+
 
 /* Scroll Section */
 .section_scroll {width: 83.33%; margin-left:16.66%;}

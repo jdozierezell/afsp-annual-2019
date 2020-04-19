@@ -37,7 +37,7 @@ a.home_modal-link {margin-right:22px;}
 	z-index: -100;
 }
 .parallax__container .parallax {
-	/* can be put in a seperate class for better control */
+	/* can be put in a separate class for better control */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -57,9 +57,9 @@ a.home_modal-link {margin-right:22px;}
 
 
 
-.bgimg {position: relative;}
+.backgroundImage {position: relative;}
 
-.bgpanel {}
+
 .parallax__container .parallax.bg0 {background-image: url("../images/bg0a.jpg"); background-color:#ffce08; background-size:100% auto; background-position: bottom center;}
 .parallax__container .parallax.bg1 {background-image: url("../images/bg1a.jpg"); background-color:#ffce08;}
 .parallax__container .parallax.bg2 {background-image: url("../images/bg2a.jpg"); background-color:#e33c41;}
@@ -88,7 +88,7 @@ a.home_modal-link {margin-right:22px;}
 
 
 
-.fadein {}
+
 
 .initial {height:100vh; position:relative;}
 
@@ -97,11 +97,11 @@ a.home_modal-link {margin-right:22px;}
   height: calc(var(--vh, 1vh) * 100);
 }
   
-.initial .initial_content {}
-/* Parralax and Fade Overlays */
+
+/* Parallax and Fade Overlays */
 
 
-/* Inro Section - Yellow */
+/* Intro Section - Yellow */
 #holder-0 .initial_content {
 position:absolute;
 left:0;
@@ -183,7 +183,7 @@ bottom:45px;
 
 
 
-#home_first {}
+
 #home_first .home_content {max-width:600px; padding:130px 35px 60px; margin:0 auto;}
 #home_first .home_content p {
   font-family:PaulGroteskSoft-Medium, sans-serif;
@@ -196,7 +196,7 @@ bottom:45px;
 #home_first .home_content p a.home_modal-link {font-family:PaulGroteskSoft-Bold, sans-serif; font-size:20px; line-height:20px; color:#3728BD; text-decoration:none; }
 #home_first .home_content p a.home_modal-link:hover {text-decoration:none; color:#fff;}
 
-#home_first-animate1 {}
+
 #home_first-animate1 p {animation-duration:.8s; opacity:0; animation-delay:.4s;}
 #home_first-animate2 p {animation-duration:.8s; opacity:0; animation-delay:.4s;margin: 0 0 60px 0 !important;}
 #home_first-animate3 p {animation-duration:1.6s; opacity:0; animation-delay:.4s;}
@@ -204,7 +204,7 @@ bottom:45px;
 
 
 /* Second/Red */
-#home_second {}
+
 
 #home_second .home_content {max-width:600px; padding:130px 35px 60px; margin:0 auto;}
 #home_second .home_content p {
@@ -225,7 +225,7 @@ bottom:45px;
 
 #home_second .home_button {color:#EB1426; margin-bottom:60px;margin-top: 20px;}
 
-#home_second-animate {}
+
 #home_second-animate1 p {animation-duration:.8s; opacity:0; animation-delay:.4s;}
 #home_second-animate2 p {animation-duration:.8s; opacity:0; animation-delay:.4s;}
 #home_second-animate3 a.home_button {animation-duration:1.6s; opacity:0; animation-delay:.4s;}
@@ -233,7 +233,7 @@ bottom:45px;
 
 
 /* Third/Green*/
-#home_third {}
+
 
 #home_third .home_content {max-width:600px; padding:130px 35px 60px; margin:0 auto;}
 #home_third .home_content p {
@@ -245,7 +245,7 @@ bottom:45px;
 }
 #home_third .home_button {color:#2AD891; margin-bottom:60px;margin-top: 38px;}
 
-#home_third-animate {}
+
 #home_third-animate1 p {animation-duration:.8s; opacity:0; animation-delay:.4s;}
 #home_third-animate2 a.home_button {animation-duration:1.6s; opacity:0; animation-delay:.4s;}
 #home_third-animate3 p {animation-duration:1.6s; opacity:0; animation-delay:.4s;}
@@ -255,7 +255,7 @@ bottom:45px;
 
 
 /* Fourth/Blue */
-#home_fourth {}
+
 
 #home_fourth .home_content {max-width:600px; padding:130px 35px 60px; margin:0 auto;}
 #home_fourth .home_content p {
@@ -267,7 +267,7 @@ bottom:45px;
 }
 #home_fourth .home_button {color:#396DFF; margin-bottom:60px;margin-top: 42px;}
 
-#home_fourth-animate {}
+
 #home_fourth-animate1 p {animation-duration:.8s; opacity:0; animation-delay:.4s;}
 #home_fourth-animate2 p {animation-duration:.8s; opacity:0; animation-delay:.4s;}
 #home_fourth-animate3 a.home_button {animation-duration:1.6s; opacity:0; animation-delay:.4s;}
@@ -278,7 +278,7 @@ bottom:45px;
 
 /* Fifth/Yellow/Bottom */
 #home_fifth {background:#FFCE08 url("../images/bg5.jpg") bottom center no-repeat; background-size: contain;}
-#home_fifth-animate {}
+
 #home_fifth .home_content {max-width:665px; padding:90px 35px; margin:0 auto; }
 #home_fifth .home_content p {
   font-family:PaulGroteskSoft-Bold, sans-serif;
@@ -326,7 +326,7 @@ text-decoration: none;
 
 #home_fifth-animate1 {margin-bottom:30px;}
 #home_fifth-animate1 p, #home_fifth-animate1 .home_button {animation-duration:.8s; opacity:0;}
-#home_fifth-animate1 p:nth-child(1) {}
+
 #home_fifth-animate1 p:nth-child(2) {animation-delay:.2s;}
 #home_fifth-animate1 .home_button:nth-child(3) {animation-delay:.4s;}
 #home_fifth-animate1 .home_button:nth-child(4) {animation-delay:.6s;}
@@ -340,7 +340,7 @@ text-decoration: none;
 #home_fifth-animate1 p:nth-child(2) {animation-delay:.4s;}
 
 #fifth_download, #fifth_social p, #fifth_social a {animation-duration:.8s; opacity:0;}
-#fifth_download {}
+
 #fifth_social p:nth-child(1) {animation-delay:.2s;}
 #fifth_social a:nth-child(2) {animation-delay:.4s;}
 #fifth_social a:nth-child(3) {animation-delay:.6s;}
@@ -392,7 +392,7 @@ text-decoration: none;
 
 #letterModal .modal-content {width:90%; max-width: 1260px; margin:0 auto;}
 
-#letterModal .letter_body {}
+
 #letterModal .letter_body:after {
   content: "";
   display: table;
@@ -407,7 +407,7 @@ text-decoration: none;
 #letterModal .letter_right strong {font-family:AvenirNextLTPro-Bold, sans-serif;}
 
 #letterModal .letter_right ul {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:20px; line-height:28px;padding: 0 0 0 20px;}
-#letterModal .letter_right ul li {}
+
 
 #letterModal .letter_left .letter_pods {display: none;}
 #letterModal .letter_left .letter_pods {width: 274px; font-family:AvenirNextLTPro-Regular, sans-serif;  color:#000;margin: 0 0 110px 0;}
@@ -422,10 +422,10 @@ text-decoration: none;
 #letterModal .letter_right #letter_bottom .letter_pods strong {font-family:AvenirNextLTPro-Bold, sans-serif; display: block}
 
 /* Video Modal */
-#videoModal1 {}
-#videoModal2 {}
-#videoModal3 {}
-#videoModal4 {}
+
+
+
+
 .videoModal {padding-right: 0 !important;}
 .videoModal .modal-dialog {
     padding: 20px;
@@ -452,11 +452,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#396dff', end
 .videoModal p {color: #FFCE08; width: 90%; margin: 0 auto 32px; max-width: 630px; display: block; font-family:paulgrotesksoft-regular, sans-serif; font-size: 20px;line-height: 26px;}
 .videoModal a {color: #fff; text-decoration: underline;}
 
-.videoModal .embedholder {max-width: 630px; margin: 30px auto 24px;}
-.videoModal .embedtool {position: relative;height: 0;padding-top: 56%;overflow: hidden;max-width: 100%;}
-.videoModal .embedtool iframe, .embedtool object,
-.videoModal .embedtool embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.videoModal .embedtool .fluid-vids {position: initial !important}
+.videoModal .embedHolder {max-width: 630px; margin: 30px auto 24px;}
+.videoModal .embedTool {position: relative;height: 0;padding-top: 56%;overflow: hidden;max-width: 100%;}
+.videoModal .embedTool iframe, .embedTool object,
+.videoModal .embedTool embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.videoModal .embedTool .fluid-vids {position: initial !important}
 
 /* Media Queries */
 @media only screen and (min-width: 480px) {
@@ -478,7 +478,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#396dff', end
 #letterModal .letter_right #letter_bottom  {width: initial;}
 #letterModal .letter_right #letter_bottom .letter_pods {display: inline-block;width: 274px;}
 .videoModal .modal-dialog {width:100%; padding: 34px 40px 0 40px;}
-.videoModal .embedholder {margin: 58px auto 24px;}
+.videoModal .embedHolder {margin: 58px auto 24px;}
 }
 
 @media only screen and (min-width: 960px) {
@@ -549,9 +549,7 @@ padding:0;
   margin:0 0 98px 0;
 }
   
-#fifth_letter {
 
-} 
 
 
 #letterModal .letter_left {max-width:402px; }
@@ -595,7 +593,7 @@ padding:0;
 
 
 
-/* Inro Section - Yellow */
+/* Intro Section - Yellow */
 #holder-0 .initial_content {
 left:60px;
 padding:0;
@@ -677,7 +675,7 @@ p {
 @media only screen and (min-width:1250px) {
 
 
-/* Inro Section - Yellow */
+/* Intro Section - Yellow */
 #holder-0 .initial_content {
 left:90px;
 padding:0;
@@ -709,7 +707,7 @@ top:175px;
 
 @media only screen and (min-width: 1450px) {  
 
-/* Inro Section - Yellow */
+/* Intro Section - Yellow */
 #holder-0 .initial_content {
 left:116px;
 padding:0;

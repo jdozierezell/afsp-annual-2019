@@ -14,7 +14,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5dae3', end
 #screening {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
 #healing {display:block; height:1px; width:1px; position:absolute; right:0; bottom:90px;}
 
-.section_callout.section_desktop {margin: 32px 0;}
+.section_callOut.section_desktop {margin: 32px 0;}
 
 #support #support_logo {margin: 40px 0 12px 0;}
 #support #support_logo img {width: 277px;}
@@ -48,13 +48,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5dae3', end
 #screening_banner .banner_burst2 span {display:block; padding-top:22px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#396DFF; font-size:9px; line-height:9px;}
 #screening_banner .banner_burst2 span strong {display:block; font-size:31px; line-height:31px; font-weight:400; letter-spacing: -1px;}
 
-#screening_news {}
+
 #screening_news h2 {margin:0 0 20px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:24px; color:#fff;}
 #screening_news a {display:block; margin: 0 0 10px 0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:700; color:#fff; font-size:18px; line-height:23px; text-decoration:none; /*! text-decoration-color:#FFCE08; */ position:relative; letter-spacing: -.6px}
 #screening_news span {border-bottom: 3px solid #ffce08;}
 #screening_news a:hover {text-decoration: underline; text-decoration-color: #fff;}
 /* Healing Banner */
-#healing_banner .banner_burst1 {}
+
 #healing_banner .banner_burst1 span {display:block; padding-top:17px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#396DFF; font-size:9px; line-height:9px;}
 #healing_banner .banner_burst1 span strong {display:block; font-size:31px; line-height:31px; font-weight:400;}
 
@@ -69,10 +69,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5dae3', end
 
 #support a.accordion_toggle {color:#396DFF;}
 
-#support #healingconversations_logo {margin: 0 0 27px 0;}
-#support #healingconversations_logo img {width: 264px;}
+#support #healingConversations_logo {margin: 0 0 27px 0;}
+#support #healingConversations_logo img {width: 264px;}
 
-#support #healingconversations_logo  a.scroll_left-button:after {content:"\2197"; display:block; position:absolute; right:17px; top:50%; transform: translateY(-50%); color:#fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:14px;}
+#support #healingConversations_logo  a.scroll_left-button:after {content:"\2197"; display:block; position:absolute; right:17px; top:50%; transform: translateY(-50%); color:#fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:14px;}
 
 
 /* Volunteer Modal */

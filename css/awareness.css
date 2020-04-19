@@ -20,14 +20,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb956a', end
 
 /* Awareness Walks */
 #awareness_walks .section_columns {padding: 58px 0 53px 0;}
-#awareness_walks .section_callout.section_mobile {margin-bottom:40px;}
+#awareness_walks .section_callOut.section_mobile {margin-bottom:40px;}
 
 #awareness_walks .section_right .right_intro-top:after {
   content: "";
   display: table;
   clear: both;
 }
-#awareness_walks .right_intro-left {}
 #awareness_walks .right_intro-right {display:block; width:210px; margin:20px auto;}
 #awareness_walks .right_intro-right img {width:100%; height:auto;margin: 10px 0 10px 0;}
 #awareness_walks .section_right .right_intro-top p:first-of-type {padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; color:#000; font-size:24px; line-height:32px; letter-spacing: -.3px;}
@@ -54,8 +53,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb956a', end
 #awareness_campaigns .section_columns {padding: 23px 0 0 0;}
 
 .section_scroll-left2 strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight: 400;}
-.section_scroll  a.textlink {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight: 400; color: #000; border-bottom: 3px solid #ffce08; text-decoration: none;}
-.section_scroll  a.textlink:hover { border-bottom: 3px solid #000; }
+.section_scroll  a.textLink {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight: 400; color: #000; border-bottom: 3px solid #ffce08; text-decoration: none;}
+.section_scroll  a.textLink:hover { border-bottom: 3px solid #000; }
 .section_scroll strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight: 400; }
 
 /* Campaign Banner */
@@ -201,7 +200,7 @@ border-radius:90px;
   clear: both;
 }
 
-.section_callout.section_desktop {margin: 32px 0;}
+.section_callOut.section_desktop {margin: 32px 0;}
 
 #section_scroll-awkward .section_scroll-left {width:420px;}
 #section_scroll-awkward .section_scroll-right {width: calc(100% - 430px);}

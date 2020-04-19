@@ -42,7 +42,6 @@ a#innovation_grants-btn:after {
 
 
 
-#AFSP2019_intro .interior_content {/*padding: 248px 0 66px 0;*/}
 #AFSP2019_plan .section_columns {padding: 38px 0;}
 #AFSP2019_plan .section_right .right_intro p:first-of-type {margin: 0px 0 20px 0;}
 #AFSP2019_plan .section_right .right_intro p:nth-of-type(2) {margin: 0 0 0 0;}
@@ -93,7 +92,7 @@ a#innovation_grants-btn:after {
 	margin:0 auto;
 }
 
-.grantsModal .modal-body {}
+
 .grantsModal .grantsIntro {max-width:790px; margin-bottom:50px;}
 .grantsModal .grantsIntro h1 {margin:0 0 20px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; color:#E12A91; font-size:40px; line-height:44px;}
 .grantsModal .grantsIntro p {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:16px; line-height:20px; hyphens:manual;}
@@ -109,13 +108,13 @@ a#innovation_grants-btn:after {
   clear: both;
 }
 
-.grantsModal section .grants_left {}
+
 
 .grantsModal section .grants_left p {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:18px; line-height:26px;}
 
 .grantsModal section .grants_left strong.grants_title {margin:0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; color:#E12A91; font-size:24px; line-height:26px; display:block;}
 
-.grantsModal section .grants_right {}
+
 .grantsModal section .grants_right .grants_bio {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:16px; line-height:24px;}
 .grantsModal section .grants_right .grants_bio img {display:block; margin-bottom:15px; width:160px; height:auto;} 
 .grantsModal section .grants_right .grants_bio img.grants_bio-inline {display:inline-block; margin-right:10px;} 
@@ -126,7 +125,7 @@ a#innovation_grants-btn:after {
 #AFSP2019 #chapter_banner {margin: 89px 0 0 0;}
 
 
-#AFSP2019_financials {}
+
 #AFSP2019_financials .section_columns {padding: 28px 0 35px 0;}
 #AFSP2019_financials .section_right .right_intro p:first-of-type {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size: 24px; line-height: 31px;margin: 0 0 30px 0;}
 
@@ -212,9 +211,9 @@ a#letter-btn:after {
 	margin:0 auto;
 }
 
-#letterModal .modal-body {}
 
-#letterModal .letter_body {}
+
+
 #letterModal .letter_body:after {
   content: "";
   display: table;
@@ -230,7 +229,7 @@ a#letter-btn:after {
 #letterModal .letter_right p a {color: #000; text-decoration: underline;}
 
 #letterModal .letter_right ul {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:20px; line-height:28px;padding: 0 0 0 20px;}
-#letterModal .letter_right ul li {}
+
 
 /*#letterModal .letter_signatures-holder {max-width:620px;}
 #letterModal .letter_signatures {max-width:300px; font-family:AvenirNextLTPro-Regular, sans-serif; color:#000; font-size:18px; line-height:26px; display:inline-block;}
@@ -286,7 +285,7 @@ a#letter-btn:after {
 
 #AFSP2019_intro .interior_content {padding: 248px 0 89px 0;}
 
-.section_scroll-left3 {}
+
 .section_scroll-left3 h2 {margin:0 0 16px 0; font-size:30px; line-height:34px;}
 .section_scroll-right3 {padding:0 0 30px 30px;}
     

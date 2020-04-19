@@ -27,7 +27,7 @@ a.content_link:hover {border-bottom: 3px solid #000;}
 #prevention_advocacy  .section_right .right_intro p:first-of-type {padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; color:#000; font-size:24px; line-height:32px; letter-spacing: -.3px;}
 
 
-.section_scroll-left {}
+
 a.scroll_left-button:after {content:"\2197"; display:block; position:absolute; right:17px; top:50%; transform: translateY(-50%); color:#fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:14px;}
 
 /* Research Banner */
@@ -38,12 +38,12 @@ a.scroll_left-button:after {content:"\2197"; display:block; position:absolute; r
 }
 #research_banner .banner_burst1 span {display:block; padding-top:31px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#2AD891; font-size:9px; line-height:9px;}
 #research_banner .banner_burst1 span strong {display:block; font-size:22px; line-height:22px; font-weight:400;}
-#research_banner .banner_burst2 {}
+
 #research_banner .banner_burst2 span {display:block; padding-top:28px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#2AD891; font-size:9px; line-height:9px;}
 #research_banner .banner_burst2 span strong {display:block; font-size:14px; line-height:14px; font-weight:400;}
 
 /* Spotlight */
-.content_spotlight {}
+
 .content_spotlight h3 {margin:0 0 10px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#fff; font-size:30px;}
 .content_spotlight p {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:18px; line-height:26px;}
 .content_spotlight p strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
@@ -55,7 +55,7 @@ a.scroll_left-button:after {content:"\2197"; display:block; position:absolute; r
 }
 .spotlight_columns h3 {margin:0 0 2px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#000; font-size:24px;}
 .spotlight_columns p {margin:0 0 24px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:18px; line-height:25px;letter-spacing: .5px;}
-.spotlight_left {}
+
 .spotlight_right p:last-of-type{margin:0 0 45px 0;}
 
 a#innovation_grants-btn {display:inline-block; color:#2AD891; height:70px; line-height:70px; background:#fff; text-decoration:none; padding:0 40px 0 20px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:18px; position:relative;}
@@ -80,7 +80,7 @@ a#innovation_grants-btn:after {
 
 /* Advocacy Banner */
 #advocacy_banner {margin: 170px 0 0 0;}
-#advocacy_banner .banner_burst1 {}
+
 #advocacy_banner .banner_burst1 span {display:block; padding-top:18px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#2AD891; font-size:9px; line-height:9px;}
 #advocacy_banner .banner_burst1 span strong {display:block; font-size:31px; line-height:31px; font-weight:400;}
 
@@ -147,16 +147,16 @@ a#innovation_grants-btn:after {
 #project_banner .banner_burst1 span {display:block; padding-top:18px; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; color:#2AD891; font-size:9px; line-height:9px;}
 #project_banner .banner_burst1 span strong {display:block; font-size:26px; line-height:26px; font-weight:400;}
 
-.project_columns {}
+
 .project_columns:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.project_left {}
-.project_right {}
-.project_pod {}
+
+
+
 .project_disc {width: 169px; height: 169px; margin: 0 auto 20px;}
 .project_disc img {width: 100%;}
 .project_pod p {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:18px; line-height:24.5px;letter-spacing: -.2px;}
@@ -227,13 +227,13 @@ a#innovation_grants-btn:after {
   clear: both;
 }
 
-.grantsModal section .grants_left {}
+
 
 .grantsModal section .grants_left p {margin:0 0 10px 0; padding:0; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#4D4D4D; font-size:18px; line-height:26px;}
 
 .grantsModal section .grants_left strong.grants_title {margin:0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; color:#E12A91; font-size:24px; line-height:26px; display:block;}
 
-.grantsModal section .grants_right {}
+
 .grantsModal section .grants_right .grants_bio {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#000; font-size:16px; line-height:24px;}
 .grantsModal section .grants_right .grants_bio img {display:block; margin-bottom:15px; width:160px; height:auto;} 
 .grantsModal section .grants_right .grants_bio img.grants_bio-inline {display:inline-block; margin-right:10px;} 
@@ -320,7 +320,7 @@ border-radius:100px;
 #project_banner .banner_burst1 span {padding-top:50px; font-size:18px; line-height:18px;}
 #project_banner .banner_burst1 span strong {font-size:62px; line-height:62px;}
 
-.section_callout.section_desktop {margin: 32px 0;}
+.section_callOut.section_desktop {margin: 32px 0;}
 
 .volunteerModal .volunteer_profile {float: left; vertical-align: top;width: initial;padding: 56px 0 0 56px;}
 .volunteerModal .volunteer_image {float: left; vertical-align: top;margin: 32px 32px 32px 0;}

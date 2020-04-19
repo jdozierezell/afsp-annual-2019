@@ -10,7 +10,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa08a', end
 
 #community_spotlights h2 {color:#262626; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:40px; line-height:48px;}
 
-#community .interior_intro .interior_content {/*padding:324px 0 75px 0;*/}
 #community .interior_intro p {letter-spacing: 0.4px;}
 #community .section_columns {padding: 60px 0 0 0;}
 #community_listings .section_columns {padding: 13px 0 0 0;}
@@ -25,7 +24,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa08a', end
 .spotlight_pod {display:block; width:228px; margin:0 auto 80px auto;}
 .spotlight_pod .spotlight_img {width:100%;}
 .spotlight_pod .spotlight_img img {width:100%; height:auto;}
-.spotlight_text {}
+
 .spotlight_text a {color:#262626; text-decoration:none;}
 .spotlight_text a:hover {text-decoration:none;}
 .spotlight_text strong {display:block; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:18px; line-height:24px;margin-top: 8px;}
@@ -79,7 +78,7 @@ a.listings_btn:hover {text-decoration:none;}
 	margin:0 auto;
 }
 
-.listingsModal .modal-body {}
+
 .listingsModal h1 {margin:0 0 60px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:700; color:#396DFF; font-size:40px; line-height:48px;}
 .listingsModal section {border-top:1px solid #396DFF; padding:30px 0 0 0; margin:0 0 30px 0;}
 .listingsModal section:after {
@@ -95,7 +94,7 @@ a.listings_btn:hover {text-decoration:none;}
 .listingsModal ul li.modal_asterisk {font-size: 12px; position: relative; padding: 0 0 0 6px; font-style: italic;}
 .listingsModal ul li.modal_asterisk sup {position: absolute; top: 12px; left: 0; font-style: normal;}
 
-.listingsModal ul li {positive: relative; margin:0 0 20px 0; padding:0; display:block; font-family:AvenirNextLTPro-Regular, sans-serif; font-size:16px; line-height:26px; color:#000;}
+.listingsModal ul li {position: relative; margin:0 0 20px 0; padding:0; display:block; font-family:AvenirNextLTPro-Regular, sans-serif; font-size:16px; line-height:26px; color:#000;}
 .listingsModal ul li strong {display:block; font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:700;}
 .listingsModal ul li span {display:block;}
 
@@ -129,11 +128,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#396dff', end
 .videoModal p {color: #FFCE08; width: 90%; margin: 0 auto 32px; max-width: 630px; display: block; font-family:paulgrotesksoft-regular, sans-serif; font-size: 20px;line-height: 26px;}
 .videoModal a {color: #fff; text-decoration: underline;}
 
-.videoModal .embedholder {max-width: 630px; margin: 30px auto 24px;}
-.videoModal .embedtool {position: relative;height: 0;padding-top: 56%;overflow: hidden;max-width: 100%;}
-.videoModal .embedtool iframe, .embedtool object,
-.videoModal .embedtool embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.videoModal .embedtool .fluid-vids {position: initial !important}
+.videoModal .embedHolder {max-width: 630px; margin: 30px auto 24px;}
+.videoModal .embedTool {position: relative;height: 0;padding-top: 56%;overflow: hidden;max-width: 100%;}
+.videoModal .embedTool iframe, .embedTool object,
+.videoModal .embedTool embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.videoModal .embedTool .fluid-vids {position: initial !important}
 
 
 
@@ -173,14 +172,14 @@ width:25%;
 
 .listingsModal ul.modal_columns li {display: inline-block; width:100%;}
 .listingsModal ul.modal_columns li.break_before {break-before: column; display: block;}
-.listingsModal ul.no_columns li {display:block;  vertical-align: top; margin-right:4px;}
+.listingsModal ul.no_columns li {display:block;  margin-right:4px;}
 
 
 
 
 
 .videoModal .modal-dialog {padding: 34px 40px 0 40px;}
-.videoModal .embedholder {margin: 58px auto 24px;}
+.videoModal .embedHolder {margin: 58px auto 24px;}
 
 
 }
